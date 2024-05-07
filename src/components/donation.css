@@ -1,0 +1,79 @@
+.container2 {
+    /* max-width: 100%; */
+    margin:  auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-input-box {
+    margin-bottom: 15px;
+  }
+  
+  .user-input-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .user-input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .gender-details-box {
+    margin-bottom: 15px;
+  }
+  
+  .gender-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .gender-category {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gender-category input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .form-submit-btn {
+    text-align: center;
+  }
+  
+  .form-submit-btn input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-submit-btn input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+  
